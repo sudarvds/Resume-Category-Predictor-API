@@ -1,3 +1,7 @@
-git add requirements.txt
-git commit -m "Add requirements file"
-git push origin main
+fastapi
+uvicorn[standard]
+python-multipart
+scikit-learn
+pandas
+numpy
+nltk
