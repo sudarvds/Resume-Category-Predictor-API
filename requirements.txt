@@ -1,7 +1,5 @@
 fastapi
-uvicorn[standard]
-python-multipart
+uvicorn
 scikit-learn
-pandas
-numpy
-nltk
+PyPDF2
+python-multipart
