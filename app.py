@@ -6,6 +6,11 @@ from io import BytesIO
 
 app = FastAPI()
 
+@app.get("/")
+def home():
+    return {"message": "Resume Category Predictor API is Running 🚀"}
+
+
 # Load your trained model
 model = pickle.load(open("model.pkl", "rb"))
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
