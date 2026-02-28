@@ -3,3 +3,4 @@ uvicorn
 scikit-learn
 PyPDF2
 python-multipart
+scikit-learn==1.6.1
